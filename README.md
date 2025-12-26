@@ -2,6 +2,7 @@
 # Learned Memory Agent (Invoice Automation)
 
 This project demonstrates a deterministic, explainable memory-driven system for invoice automation.
+Tested on Node.js 18 LTS (Windows)
 
 Key ideas:
 - Memory acts as a feature store
