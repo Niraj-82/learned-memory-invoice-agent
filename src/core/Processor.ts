@@ -42,7 +42,7 @@ export class Processor {
         if (m?.[1] && !normalized.fields.serviceDate) {
           normalized.fields.serviceDate = this.normalizeDate(m[1]);
           proposed.push("serviceDate inferred");
-          confidence += 0.15;
+          confidence += 0.2;
         }
       }
 
